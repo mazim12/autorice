@@ -1,27 +1,3 @@
-### A stylish setup that's ready for work in minutes.
-![hi](previews/desktop.png)
-
-### No borders for a light, pastoral mood.
-![hi](previews/minimal.png)
-
-### Polybar for your system info, and workspaces.
-![hi](previews/polybar.png)
-
-### Font display has been corrected. No ugly blocky UIs.
-![hi](previews/fonts.png)
-
-### Support for every language in the world.
-![hi](previews/languages.png)
-
-### On the simple but powerful Arch Linux.
-![hi](previews/arch.png)
-
-
-### Introduction 
-
-With this project, I set out to create something that would alleviate the incredible time sink of setting up Arch Linux. After nearly a month of work, this is what I have come up with. 
-
-Programs have been chosen carefully based on their performance and utility. At the same time, not too many are included. To keep it lean, command line tools make up the majority of what you will be getting. It's up to you to install the rest. 
 
 **Default programs**
 
@@ -64,19 +40,7 @@ This little script will install a collection of command line tools, two window m
 4. `sh install.sh`
 5. Restart your computer after the script finishes.
 
-### Usage
-
-This script does nothing past providing you with dotfiles for the programs it installs. There is no universal config file, nor a master settings panel. Its up to you to configure and learn everything you need.
-
-With that said. There are some important aspects that should give some comfort:
-
-1. Everything is *nearly* default. 
-2. No magic. The dotfiles are organized in the simplest and most logical structure possible. 
-3. Theres not much here. You can look through everything in about an hour. 
-4. Two window managers: bspwm (tty1) and i3 (tty2) to fit most preferences. 
-
-With those three points laid out, here are some basic keybindings to help you out:
-
+keybindings
 **Global**
 
 * `mod return` to start a Terminal.
@@ -115,8 +79,4 @@ With those three points laid out, here are some basic keybindings to help you ou
 * `mod c` to toggle focus between floating and tiled windows in i3.
 * `mod r` to enter resize mode in i3.
 * `mod h,j,k,l` to shrink and grow a window (while in resize mode) in i3.
-
-### Something doesn't work. 
-
-**Please** open an issue and tell me what happened. My goal is to make this work for everyone and that starts with fixing every little problem people have.
 
